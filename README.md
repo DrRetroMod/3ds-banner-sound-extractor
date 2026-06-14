@@ -38,7 +38,7 @@ Example:
 
 ```text
 Nintendo - Nintendo 3DS/
-├── extract_3ds_banner_sound_v1_4_1.py
+├── extract_3ds_banner_sound.py
 ├── Game 1.3ds
 ├── Game 2.3ds
 └── Some Subfolder/
@@ -60,38 +60,38 @@ Open PowerShell in the ROM folder.
 Check the script:
 
 ```powershell
-python .\extract_3ds_banner_sound_v1_4_1.py --version
-python .\extract_3ds_banner_sound_v1_4_1.py --platform-info
+python .\extract_3ds_banner_sound.py --version
+python .\extract_3ds_banner_sound.py --platform-info
 ```
 
 Install/download dependencies:
 
 ```powershell
-python .\extract_3ds_banner_sound_v1_4_1.py --install-tools-only .
+python .\extract_3ds_banner_sound.py --install-tools-only .
 ```
 
 Batch process ROMs in the current folder only:
 
 ```powershell
-python .\extract_3ds_banner_sound_v1_4_1.py .
+python .\extract_3ds_banner_sound.py .
 ```
 
 Batch process ROMs in the current folder and all subfolders:
 
 ```powershell
-python .\extract_3ds_banner_sound_v1_4_1.py . --recursive
+python .\extract_3ds_banner_sound.py . --recursive
 ```
 
 Overwrite existing MP3 files:
 
 ```powershell
-python .\extract_3ds_banner_sound_v1_4_1.py . --recursive --force
+python .\extract_3ds_banner_sound.py . --recursive --force
 ```
 
 If `python` does not work, try `py` instead:
 
 ```powershell
-py .\extract_3ds_banner_sound_v1_4_1.py . --recursive
+py .\extract_3ds_banner_sound.py . --recursive
 ```
 
 ## macOS
@@ -101,39 +101,39 @@ Open Terminal in the ROM folder.
 Check the script:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py --version
-python3 extract_3ds_banner_sound_v1_4_1.py --platform-info
+python3 extract_3ds_banner_sound.py --version
+python3 extract_3ds_banner_sound.py --platform-info
 ```
 
 Install/download dependencies:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py --install-tools-only .
+python3 extract_3ds_banner_sound.py --install-tools-only .
 ```
 
 Batch process ROMs in the current folder only:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py .
+python3 extract_3ds_banner_sound.py .
 ```
 
 Batch process ROMs in the current folder and all subfolders:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py . --recursive
+python3 extract_3ds_banner_sound.py . --recursive
 ```
 
 Overwrite existing MP3 files:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py . --recursive --force
+python3 extract_3ds_banner_sound.py . --recursive --force
 ```
 
 On Apple Silicon Macs, if you want to force native Homebrew Python instead of an older Intel/Rosetta Python, use:
 
 ```bash
-/opt/homebrew/bin/python3 extract_3ds_banner_sound_v1_4_1.py --platform-info
-/opt/homebrew/bin/python3 extract_3ds_banner_sound_v1_4_1.py . --recursive
+/opt/homebrew/bin/python3 extract_3ds_banner_sound.py --platform-info
+/opt/homebrew/bin/python3 extract_3ds_banner_sound.py . --recursive
 ```
 
 ## Linux
@@ -143,32 +143,32 @@ Open a terminal in the ROM folder.
 Check the script:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py --version
-python3 extract_3ds_banner_sound_v1_4_1.py --platform-info
+python3 extract_3ds_banner_sound.py --version
+python3 extract_3ds_banner_sound.py --platform-info
 ```
 
 Install/download dependencies:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py --install-tools-only .
+python3 extract_3ds_banner_sound.py --install-tools-only .
 ```
 
 Batch process ROMs in the current folder only:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py .
+python3 extract_3ds_banner_sound.py .
 ```
 
 Batch process ROMs in the current folder and all subfolders:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py . --recursive
+python3 extract_3ds_banner_sound.py . --recursive
 ```
 
 Overwrite existing MP3 files:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py . --recursive --force
+python3 extract_3ds_banner_sound.py . --recursive --force
 ```
 
 ## Single ROM command
@@ -178,13 +178,13 @@ You can also process one ROM directly:
 Windows:
 
 ```powershell
-python .\extract_3ds_banner_sound_v1_4_1.py "Game Name.3ds"
+python .\extract_3ds_banner_sound.py "Game Name.3ds"
 ```
 
 macOS/Linux:
 
 ```bash
-python3 extract_3ds_banner_sound_v1_4_1.py "Game Name.3ds"
+python3 extract_3ds_banner_sound.py "Game Name.3ds"
 ```
 
 ## Dependency and licensing notes
